@@ -1,0 +1,21 @@
+JSON
+
+JSON merupakan sebuah format file teks yang biasanya berguna untuk pertukaran data antara mesin dengan mesin
+didalam JSON sendiri ada beberapa HTTP STATUS yang berguna untuk mengetahui apakah sebuah data itu ada atau tidak 
+    200     :   status ok berarti ada ada
+    300     :   status di alihkan
+    400     :   status error dari sisi client
+    500     :   status error dari sisi server
+
+JSON sendiri memiliki penulisan yang sama seperti pembuatan object pada JavaScript yaitu di bungkus dengan kurung kurawal dan didalamnya berisi KEY dan VALUE {"KEY" : "VALUE"}
+    var hewan = {
+        nama : "Kucing",
+        usia :  18,
+        jk : "laki laki"
+    }
+    di atas adalah penulisan Object pada JavaScript lalu jika pada JSON penulisanya sama tetapi untuk key nya harus di beri kutip dan di awali dengan kurung kurawal buka {}
+    {
+        "nama" : "Ahmad",
+        "usia" : 20,
+        "jk" : "laki laki"
+    }

@@ -1,0 +1,20 @@
+API
+
+API merupakan singkatan dari Application Programing Interface.yang merupakan antar muka yang dapat menghubungkan satu aplikasi dengan aplikasi lainya
+didalam API ini juga ada aturan aturan yang ada dan aturan itu biasa di sebut dengan rest api, jadi dengan ada nya rest api maka ada beberapa batasan batasan untuk mengakses suatu sumber daya
+
+jika ingin menggambarkan dengan bentuk nyata bisa di ambil contoh seperti sebuah restoran
+    Pelanggan       :   merupakan sebuah CLIENT / PENGGUNA
+    Pelayan         :   merupakan sebuah API    
+    Koki            :   merupakan sebuah sumber daya atau sebuah database
+
+jadi dari contoh diatas dapat di simpulkan bahwa API ini merupakan perantara atau penghubung antara kita dengan sebuah data yang ada
+didalm API ada beberapa HTTP method yang harus di implementasikan yaitu
+    GET     :   Untuk mengambil sebuah data     =>  menampilkan halaman website
+    POST    :   untuk mengirimkan sebuah data   =>  mengisi sebuah form seperti login page
+    PUT     :   untuk mengcreate atau membuat   =>  untuk membuat sebuah data baru
+    DELETE  :   Untuk menghapus                 =>  untuk melakukan penghapusan
+    jika kita sudah bisa melakukan semua implementasi dari 4 HTTP method di atas maka bisa di katakan sebagai RESTFUL API(bertukar data dengan aman)
+
+didalam API ini sering dalam bentuk format JSON(JavaScript Object Notation), XML(Extensible Markup Language) tapi pada kali ini saya akan belajar terkait denga JSON
+kenapa JSON karena JSON sendiri sudah banyak di kenali oleh beberpaa bahasa pemrgraman  
