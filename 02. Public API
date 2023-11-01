@@ -1,0 +1,14 @@
+PUBLIC API
+
+Public api merupakan sebuah layanan yang memperbolehkan kita mengakses sebuah data dari suatu perusahaan atau suatu lembaga
+hampir semua perusahaan besar memiliki apinya tersendiri ada beberapa situs yang sudah mengumpulkan beberapa api yang ada di internet
+1. https://github.com/public-apis/public-apis (A collective list of free APIs for use in software and web development)
+2. https://any-api.com/ (Documentation and Test Consoles for Over 1400 Public APIs)
+3. https://github.com/farizdotid/DAFTAR-API-LOKAL-INDONESIA (Kumpulan API tentang data dan informasi di Indonesia)
+
+untuk tutorial menggunkan api ada di dokumntasi dari setiap websitenya
+jika kita sudah memiliki api kita bisa melakukan pengecekan terhadap api tersebut apakah sudah bekrja atau tidak
+jika menggunakan windows/linux/mac bisa menginstall aplikasi yang bernama postman https://www.postman.com/downloads/
+tetapi jika menggunakan linux kita juga bisa memanfaatkan fitur curl yang ada di terminal linux dengan menggunakan perintah 
+curl -X respond "url"
+curl -X GET "http://target.com"
